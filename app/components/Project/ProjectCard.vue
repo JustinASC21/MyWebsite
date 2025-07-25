@@ -1,10 +1,11 @@
 <template>
-    <Card class="h-2/4">
+    <Card class="h-screen">
         <div class = "flex-col items-center">
             <h1 class = "text-xl font-medium text-white text-center pb-10">Experience</h1>
-            <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 space-between">
+            <div class="px-5 w-full grid grid-cols-1 lg:grid-cols-2 gap-8 space-between">
                 <ProjectExp :experience="awsExp"></ProjectExp>
                 <ProjectExp :experience="ascExp"></ProjectExp>
+                <ProjectExp :experience="swiftExp"></ProjectExp>
             </div>
         </div>
 
@@ -27,6 +28,13 @@ const ascExp = ref({
     description: 'Worked alongside a team of passionate instructors in a 6-week coding summer intensive for high school students',
     logo: 'AllStarCodeLogo.png',
     skills: ['Javascript', 'Web Development', 'Git']
+})
+const swiftExp = ref({
+    company: 'SwiftControl',
+    role: 'Backend Developer',
+    description: 'Working alongside team members to deliver a microservice BaaS for clients',
+    logo: 'swift.jpeg',
+    skills: ['Management','Grpc','Go','Kubernetes']
 })
 </script>
 

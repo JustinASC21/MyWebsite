@@ -1,7 +1,7 @@
 <template>
     <!-- Project Card -->
     <div
-        class="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:border-gray-700 transition-all duration-300 relative group">
+        class="bg-gray-900 rounded-lg p-6 border hover:border-gray-700 transition-all duration-300 relative group">
         <!-- Edit Icon -->
         <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
             <button class="text-gray-400 hover:text-white">
